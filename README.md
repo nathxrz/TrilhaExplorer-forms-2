@@ -6,7 +6,7 @@
 
 ## 📋 Descrição do projeto
 
-O <strong>formulário de mentoria</strong> é um projeto realizado como desafio da Trilha Explorer da <a href="">@Rocketseat</a> para a construção de formulários com <em>HTML</em> e <em>CSS</em>.
+O <strong>formulário de mentoria</strong> é um projeto realizado como desafio da Trilha Explorer da <a href="https://www.rocketseat.com.br/" target="_blank">@Rocketseat</a> para a construção de formulários com <em>HTML</em> e <em>CSS</em>.
 
 > HTML:
 - Tags semânticas e de acessibilidade;
