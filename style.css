@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body::before{
+    content: '';
+
+    background-color: #535971;
+
+    width: 100%;
+    height: 436px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header h1, fieldset legend, .section-mentorship h2, button{
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+}
+
+#container{
+    width: 100%;
+    max-width: 750px;
+
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 48px;
+    line-height: 60px;
+    
+    margin: 140px 0 18px;
+}
+
+header p{
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-bottom: 58px;
+}
+
+header h1, header p{
+    color: #FFFFFF;
+    
+    width: 100%;
+    max-width: 417px;;
+}
+
+#container form{
+    background-color: #FFF;
+
+    border-radius: 20px 20px 0px 0px;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+fieldset{
+    border: none;
+}
+
+.fieldset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+fieldset legend{
+    font-size: 24px;
+    
+    border-bottom: 1px solid #E6E6F0;
+    
+    padding-bottom: 8px;
+}
+
+#first-title{
+    padding-bottom: 16px;
+}
+
+section h2{
+    font-size: 20px;
+
+    margin-bottom: 8px;
+}
+
+fieldset legend, section h2{
+    line-height: 34px;
+
+    color: #535971;
+}
+
+fieldset legend, section h2, footer button{
+    text-transform: uppercase;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-wrapper label{
+    font-size: 14px;
+    line-height: 24px;
+  
+    color: #4E4958;
+}
+
+.input-wrapper label span{
+    font-size: 12px;
+    line-height: 20px;
+   
+    color: #C1BCCC;
+}
+
+.input-wrapper label span:hover{
+    color: #65626b;
+}
+
+.input-wrapper input{
+    background: #FAFAFC;
+
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    padding: 10px;
+
+    width: 622px;
+    height: 56px;
+}
+
+/* cols-wrapper and cols-2 configuration */
+
+.cols-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cols-2{
+    display: flex;
+    gap: 10px;
+}
+
+#input-name, #input-lastname, #input-date01, #input-date02{
+    width: 300px;
+}
+
+#input-begin01, #input-begin02, #input-end01, #input-end02{
+    width: 140px;
+}
+
+/* button configuration */
+
+footer{
+    background: #535971;
+
+    border-radius: 0px 0px 20px 20px;
+
+    padding: 52px 71px;
+    margin-bottom: 366px;
+}
+
+footer button{
+    color: #FFF;
+    font-size: 20px;
+    line-height: 26px;
+
+    background: #FF5374;
+    
+    border: none;
+    border-radius: 20px;
+
+    padding: 15px 280px;
+
+    cursor: pointer;
+}
+
+footer button:hover{
+    background: #fa2c55;
+}
+
+/* validations */
+
+input:required:not(:placeholder-shown):invalid{
+    border: 1px solid #ff0000;
+}
+
+input::placeholder{
+    opacity: 0;
+}
